@@ -14,13 +14,13 @@ const Title = styled.h2`
     font-family:'Akaya Telivigala', cursive;
 }
 .text-1{
-    color: blue;
+    color: #66bb77;
 }
 .text-2{
-    color: orange;
+    color: #ffcc00;
 }
 .text-3{
-    color: red;
+    color: #ff6f69;
 }
 
 @media (max-width: 70em){
@@ -77,29 +77,29 @@ function TypeWriterText() {
   return (
     <>
         <Title>
-      Discover a new era of cool
+      The more you know
       <Typewriter
       options={{
         autoStart: true,
         loop: true,
       }}
         onInit={(typewriter) => {
-          typewriter.typeString('<span class="text-1">NFTs.</span>')
+          typewriter.typeString('<span class="text-1">existing pools</span>')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('<span class="text-2">Collectible Items.</span>')
+          .typeString('<span class="text-2">pool liquidity</span>')
           .pauseFor(2000)
           .deleteAll()
-          .typeString('<span class="text-3">Ape Killers!</span>')
+          .typeString('<span class="text-3">bridging cost</span>')
           .pauseFor(2000)
           .deleteAll()
           .start()
         }}
       />
     </Title>
-    <SubTitle>Bored Of Apes? Try Something New</SubTitle>
+    <SubTitle>A help to understand on-chain liquidity</SubTitle>
     <ButtonContainer>
-        <Button text="Explore" link="#about"/>
+        <Button text="Get going" link="#about"/>
     </ButtonContainer>
     </>
   );

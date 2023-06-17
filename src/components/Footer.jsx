@@ -128,9 +128,8 @@ function Footer() {
         <Logo/>
         <IconList>
           <a href='https://www.facebook.com/' target='_blank' rel='noopener noreferrer'><Facebook/></a>
-          <a href='https://www.instagram.com/lupo_cahp/' target='_blank' rel='noopener noreferrer'><Instagram/></a>
-          <a href='https://www.linkedin.com/in/carlos-andr%C3%A9s-hinestroza-p%C3%A9rez-175057211/' target='_blank' rel='noopener noreferrer'><LinkedIn/></a>
-          <a href='https://twitter.com/CarlosAH1101' target='_blank' rel='noopener noreferrer'><Twitter/></a>
+          <a href='https://www.instagram.com/pooldiver/' target='_blank' rel='noopener noreferrer'><Instagram/></a>
+          <a href='https://twitter.com/pooldiver' target='_blank' rel='noopener noreferrer'><Twitter/></a>
         </IconList>
       </Left>
       <MenuItems>
@@ -144,10 +143,7 @@ function Footer() {
       </Container>
       <Bottom>
         <span>
-        &copy; {new Date().getFullYear} Weirdos Club. All rights reserved.
-        </span>
-        <span>
-        Made with &#10084; by <a href='https://portfolio-carlos-hinestroza.vercel.app/' target='_blank' rel='noreferrer'>CarlosAndresH</a>
+        &copy; {new Date().getFullYear} Pooldiver
         </span>
       </Bottom>
     </Section>

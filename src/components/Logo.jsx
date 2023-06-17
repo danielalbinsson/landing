@@ -21,7 +21,7 @@ const LogoText = styled.h1`
 function Logo() {
   return (
     <LogoText>
-      <Link to="/">W.</Link>
+      <Link to="/">Pooldiver</Link>
     </LogoText>
   );
 }

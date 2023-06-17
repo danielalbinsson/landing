@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import GIF from '../assets/Home Video.mp4';
+import video from '../assets/mave.mp4';
 
 const VideoContainer = styled.div`
 width: 100%;
@@ -14,7 +14,7 @@ video{
 `;
 function ConverVideo() {
   return (
-    <VideoContainer><video src={GIF} type="video/mp4" autoPlay muted loop/></VideoContainer>
+    <VideoContainer><video src={video} type="video/mp4" autoPlay muted loop/></VideoContainer>
   )
 }
 

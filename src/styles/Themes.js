@@ -7,7 +7,7 @@ export const light = {
     bodyRgba : "255, 255, 255",
     textRgba:"32,32,32",
 
-    carouselColor: '#EEEDDE',
+    carouselColor: '#66bb77',
 
     fontxs:'0.75em',
     fontsm:'0.875em',
@@ -20,16 +20,16 @@ export const light = {
     fontButton:'0.875em',
 
 
-    navHeight: '5rem',
+    navHeight: '8rem',
 }
 export const dark = {
 
-    body:"#202020",
-    text:"#fff", //black shade
-    bodyRgba : "32,32,32",
-    textRgba:"255, 255, 255",
+    body:"#242024",
+    text:"#eee", //black shade
+    bodyRgba : "42,32,4",
+    textRgba:"240, 240, 240",
 
-    carouselColor: '#EEEDDE',
+    carouselColor: '#f77777',
 
     fontxs:'0.75em',
     fontsm:'0.875em',
@@ -42,5 +42,5 @@ export const dark = {
     fontButton:'0.875em',
 
 
-    navHeight: '5rem',
+    navHeight: '8rem',
 }

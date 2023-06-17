@@ -147,7 +147,7 @@ const scrollTo = (id) =>{
 }
 
   return (
-    <Section id="navegation">
+    <Section id="navigation">
       <NavBar>
         <Logo />
         <HamburgerMenu click={click} onClick={()=> setClick(!click)}>
@@ -155,11 +155,8 @@ const scrollTo = (id) =>{
         </HamburgerMenu>
         <Menu click={click}>
           <MenuItem onClick={()=> scrollTo('home')}>Home</MenuItem>
-          <MenuItem onClick={()=> scrollTo('about')}>About</MenuItem>
-          <MenuItem onClick={()=> scrollTo('roadmap')}>Roadmap</MenuItem>
-          <MenuItem onClick={()=> scrollTo('showcase')}>Showcase</MenuItem>
-          <MenuItem onClick={()=> scrollTo('team')}>Team</MenuItem>
-          <MenuItem onClick={()=> scrollTo('faq')}>Faq</MenuItem>
+          <MenuItem onClick={()=> scrollTo('about')}>Benefits</MenuItem>
+          <MenuItem onClick={()=> scrollTo('faq')}>FAQ</MenuItem>
           <MenuItem>
           <div className="mobil">
           <Button text="Connect Wallet" link="https://google.com"/>
